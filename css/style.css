@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Lato:400,400italic");
+@import url("//fonts.useso.com/css?family=Lato:400,400italic");
 @font-face {
   font-family: 'FontAwesome';
   font-style: normal;
@@ -10,10 +10,10 @@
   padding: 0;
 }
 body {
-  background: #eee;
+  background-image: url("/imgs/bg.jpg");
   color: #444;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   text-shadow: 0 0 1px transparent;
 }
 @media screen and (max-width: 1260px) {
@@ -102,7 +102,7 @@ a:hover {
   }
 }
 #header {
-  text-shadow: 0 0 1px #fff;
+  text-shadow: 0 0 1px #e00;
   margin: 50px auto;
 }
 #header a {
